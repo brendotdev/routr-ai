@@ -1,0 +1,32 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# SQLite database
+db.sqlite3
+
+# Pipenv files
+Pipfile.lock
+
+# IDE and Editor folders
+.vscode/
+*.iml
+
+# MacOS system files
+.DS_Store
+
+# Other potential files to ignore
+*.log
+*.env
