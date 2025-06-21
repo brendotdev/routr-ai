@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: routr-ai
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn Routr.wsgi"
+    preDeployCommand: "python manage.py migrate"
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: Routr.settings
+      - key: SECRET_KEY
+        value: your-secret-key
+      - key: OPENAI_API_KEY
+        value: your-openai-key
