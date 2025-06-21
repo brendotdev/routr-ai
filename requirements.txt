@@ -1,0 +1,7 @@
+Django>=5.1
+gunicorn
+whitenoise
+crispy-bootstrap5
+python-dotenv
+openai
+langchain-core
